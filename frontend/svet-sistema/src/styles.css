@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-default: Poppins, inter;
+  --color-primary-green: #39B3A6;
+  --color-primary-blue: #123C56;
+  --color-primary-yellow: #FFA000;
+  --color-primary-white: #E6EAE5;
+  --text-title: 20px
+}
+
+@layer components {
+  .title {
+    font-size: var(--text-title);
+  }
+}
+
+body, html{
+  font-family: var(--font-default);
+}
