@@ -1,18 +1,41 @@
+
 # SVET
 
-## STACKS
+Sistema Web para clínicas veterinárias
 
+
+## Stack utilizada
+
+**Front-end:** 
 - Angular (@última versão)
 - Node (@última versão)
+
+**Back-end:** 
 - C# (.NET 8.0)
-  
-ObS: Procurar estar sempre na versão mais atualizada para evitar mudanças muito dráticas em atualizações.
 
-## Frontend
 
-- Entrar na pasta ./Frontend e iniciar o projeto
-- Ng start
- 
-## Backend
+## Roadmap
 
-- Rodar a API
+- Melhorar o suporte de navegadores
+
+- Adicionar mais integrações
+
+## Documentação de cores
+
+| Cor               | Hexadecimal                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| Cor exemplo       |  |
+| Cor exemplo       |  |
+| Cor exemplo       |  |
+| Cor exemplo       |  |
+
+
+## Instalação
+
+Instale my-project com npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
