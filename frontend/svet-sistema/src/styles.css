@@ -2,7 +2,7 @@
 
 
 @theme {
-  --font-default: Poppins, inter;
+  --font-default: inter, Poppins;
   --color-primary-green: #39B3A6;
   --color-primary-blue: #123C56;
   --color-primary-yellow: #FFA000;
