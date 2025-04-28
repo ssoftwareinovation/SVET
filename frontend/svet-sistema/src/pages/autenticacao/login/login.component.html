@@ -2,30 +2,34 @@
   <!-- Formulário de Login à Esquerda -->
   <div class="w-full md:w-[35%] bg-primary-green flex items-center justify-center p-6">
     <div class="auth-wrapper">
-      <!-- Logo + Nome -->
       <div class="logo-wrapper">
         <img src="assets/imgs/logo.png" alt="Ícone SVet" class="w-[40px] rounded-full" />
         <p class="text-2xl lg:text-3xl text-white font-bold">Clínica Pet Feliz</p>
       </div>
 
-      <!-- Título -->
       <div>
-        <p class="title-auth">
-          Bem-vindo,<br />Faça seu login.
-        </p>
+        <p class="title-auth">Bem-vindo,<br />Faça seu login.</p>
       </div>
 
       <!-- Formulário -->
       <form>
         <div class="form-space">
           <div>
-            <label for="nome" class="label-base">Nome</label>
-            <input id="nome" type="text" class="input-base" placeholder="Digite seu nome" />
+            <app-input
+              label="Nome"
+              name="Nome"
+              placeholder="Digite seu nome"
+              [(ngModel)]="nome"
+            ></app-input>
           </div>
 
           <div>
-            <label for="email" class="label-base">E-mail</label>
-            <input id="email" type="text" class="input-base" placeholder="Digite seu e-mail" />
+            <app-input
+              label="E-mail"
+              name="E-mail"
+              placeholder="Digite seu e-mail"
+              [(ngModel)]="email"
+            ></app-input>
 
             <div class="mr-1 text-right">
               <a href="#" class="link-base">Esqueceu a senha?</a>
@@ -34,10 +38,7 @@
         </div>
 
         <div class="mt-8">
-          <button type="submit" class="button-base">
-            Logar
-          </button>
-
+          <button type="submit" (click)="login()" class="button-base">Logar</button>
           <p class="text-primary-white text-sm text-center mt-2">
             Ainda não tem login? <a href="#" class="font-semibold underline">Cadastre aqui</a>
           </p>
@@ -46,7 +47,6 @@
     </div>
   </div>
 
-  <!-- Banner Lateral Direita -->
   <div class="bg-primary-white w-full md:w-[65%] flex items-center justify-center p-4">
     <img src="assets/imgs/logo-banner.png" alt="Logo SVet" class="max-w-full max-h-[90vh] object-contain" />
   </div>

@@ -15,7 +15,7 @@ importers:
         specifier: ^19.2.0
         version: 19.2.8
       '@angular/core':
-        specifier: ^19.2.0
+        specifier: ^19.2.8
         version: 19.2.8(rxjs@7.8.2)(zone.js@0.15.0)
       '@angular/forms':
         specifier: ^19.2.0
