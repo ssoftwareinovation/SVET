@@ -1,60 +1,53 @@
 <div class="min-h-screen flex flex-col md:flex-row font-sans">
-
-
-
   <!-- Formulário de Login à Esquerda -->
   <div class="w-full md:w-[35%] bg-primary-green flex items-center justify-center p-6">
-    <div class="w-full px-8 max-w-md">
-
+    <div class="auth-wrapper">
       <!-- Logo + Nome -->
-      <div class="flex items-center gap-4 mb-8">
+      <div class="logo-wrapper">
         <img src="assets/imgs/logo.png" alt="Ícone SVet" class="w-[40px] rounded-full" />
         <p class="text-2xl lg:text-3xl text-white font-bold">Clínica Pet Feliz</p>
       </div>
 
       <!-- Título -->
       <div>
-        <p class="mb-6 text-xl lg:text-2xl text-primary-white font-bold">
+        <p class="title-auth">
           Bem-vindo,<br />Faça seu login.
         </p>
       </div>
 
       <!-- Formulário -->
       <form>
-        <div class="space-y-4">
+        <div class="form-space">
           <div>
             <label for="nome" class="label-base">Nome</label>
             <input id="nome" type="text" class="input-base" placeholder="Digite seu nome" />
-
           </div>
 
           <div>
-            <label for="nome" class="label-base">E-mail</label>
-            <input id="nome" type="text" class="input-base" placeholder="Digite seu e-mail" />
+            <label for="email" class="label-base">E-mail</label>
+            <input id="email" type="text" class="input-base" placeholder="Digite seu e-mail" />
 
             <div class="mr-1 text-right">
-              <a href="#" class="text-sm text-primary-white hover:underline">Esqueceu a senha?</a>
+              <a href="#" class="link-base">Esqueceu a senha?</a>
             </div>
           </div>
         </div>
 
         <div class="mt-8">
-          <button type="submit" class="w-full rounded-[12px] bg-[#0F2C44] text-white py-2 font-semibold hover:opacity-90 transition duration-300">
+          <button type="submit" class="button-base">
             Logar
           </button>
 
-          <p class="text-primary-white text-[16px] text-sm text-center mt-2">
+          <p class="text-primary-white text-sm text-center mt-2">
             Ainda não tem login? <a href="#" class="font-semibold underline">Cadastre aqui</a>
           </p>
         </div>
       </form>
-
-
     </div>
   </div>
 
-   <!-- Banner Lateral Direita -->
-   <div class="bg-primary-white w-full md:w-[65%] flex items-center justify-center p-4">
+  <!-- Banner Lateral Direita -->
+  <div class="bg-primary-white w-full md:w-[65%] flex items-center justify-center p-4">
     <img src="assets/imgs/logo-banner.png" alt="Logo SVet" class="max-w-full max-h-[90vh] object-contain" />
   </div>
 </div>
