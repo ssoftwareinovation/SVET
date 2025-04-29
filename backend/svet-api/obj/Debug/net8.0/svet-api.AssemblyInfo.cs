@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("svet-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59d7780ad08f18ccfdd6bb507f598bc5110114af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+450d8918a965f935b1b82c337d84b973316cb02c")]
 [assembly: System.Reflection.AssemblyProductAttribute("svet-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("svet-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

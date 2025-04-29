@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api\\svet-api.csproj": {}
+    "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api\\svet-api.csproj": {
+    "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api\\svet-api.csproj",
+        "projectUniqueName": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api.csproj",
         "projectName": "svet-api",
-        "projectPath": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api\\svet-api.csproj",
+        "projectPath": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api.csproj",
         "packagesPath": "C:\\Users\\MNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\svet-api\\obj\\",
+        "outputPath": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
