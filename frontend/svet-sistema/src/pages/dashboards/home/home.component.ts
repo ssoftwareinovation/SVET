@@ -1,10 +1,14 @@
+import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { InputComponent } from '../../../shared/components/input/input.component';
+
 
 @Component({
   selector: 'app-home',
-  imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  standalone: true,
+  imports: [FormsModule, HttpClientModule],
 })
 export class HomeComponent {
 
