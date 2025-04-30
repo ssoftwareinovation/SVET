@@ -15,6 +15,7 @@ import { AuthService } from '../services/auth.service';
 export class LoginComponent {
   email = '';
   senha = '';
+
   erro: string | null = null;
 
   constructor(private authService: AuthService) {}
