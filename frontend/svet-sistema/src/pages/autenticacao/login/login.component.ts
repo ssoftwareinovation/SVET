@@ -1,19 +1,33 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InputComponent } from '../../../shared/components/input/input.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from '../services/auth.service';
+
+
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   standalone: true,
-  imports:[InputComponent, FormsModule]
-
+  imports: [InputComponent, FormsModule, HttpClientModule],
 })
 export class LoginComponent {
-  nome: string = '';
-  email: string = '';
+  email = '';
+  senha = '';
+  erro: string | null = null;
 
-  login(){
-    let a = 1+ 1
+  constructor(private authService: AuthService) {}
+
+  login() {
+    this.authService.login(this.email, this.senha).subscribe({
+      next: () => {
+        console.log('Login realizado com sucesso!');
+        // redirecionar para a área logada, se quiser
+      },
+      error: () => {
+        this.erro = 'Usuário ou senha inválidos.';
+      },
+    });
   }
 }
