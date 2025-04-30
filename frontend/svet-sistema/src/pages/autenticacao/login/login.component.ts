@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { InputComponent } from '../../../shared/components/input/input.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthService } from '../services/auth.service';
+import { Router } from '@angular/router';
 
 
 
@@ -18,13 +19,14 @@ export class LoginComponent {
 
   erro: string | null = null;
 
-  constructor(private authService: AuthService) {}
+  constructor(private authService: AuthService,  private router: Router) {}
 
   login() {
+    this.erro = null;
     this.authService.login(this.email, this.senha).subscribe({
       next: () => {
         console.log('Login realizado com sucesso!');
-        // redirecionar para a área logada, se quiser
+        this.router.navigate(['/dashboard']); // <-- redirecionamento
       },
       error: () => {
         this.erro = 'Usuário ou senha inválidos.';
