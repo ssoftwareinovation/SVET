@@ -35,7 +35,6 @@ namespace svet_api.Services
                 Expiracao = expiracao
             };
 
-
             _context.Tokens.Add(tokenObj);
             await _context.SaveChangesAsync();
 
