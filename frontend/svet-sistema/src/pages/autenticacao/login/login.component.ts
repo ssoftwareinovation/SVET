@@ -26,7 +26,7 @@ export class LoginComponent {
     this.authService.login(this.email, this.senha).subscribe({
       next: () => {
         console.log('Login realizado com sucesso!');
-        this.router.navigate(['/dashboard']); // <-- redirecionamento
+        this.router.navigate(['/dashboard']);
       },
       error: () => {
         this.erro = 'Usuário ou senha inválidos.';
