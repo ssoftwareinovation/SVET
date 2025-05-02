@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Workspace\\Projetos\\SVET\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|c:\\workspace\\projetos\\svet\\backend\\svet-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|solutionrelative:svet-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|c:\\workspace\\projetos\\svet\\backend\\svet-api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|solutionrelative:svet-api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|c:\\workspace\\projetos\\svet\\backend\\svet-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|solutionrelative:svet-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99150D3F-B888-4D95-88D5-43FE686EE94C}|svet-api\\svet-api.csproj|c:\\workspace\\projetos\\svet\\backend\\svet-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,11 +86,12 @@
               "RelativeToolTip": "svet-api\\Middlewares\\TokenAuthenticationMiddleware.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T19:28:56.25Z"
+              "WhenOpened": "2025-04-30T19:28:56.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\Program.cs",
               "RelativeDocumentMoniker": "svet-api\\Program.cs",
@@ -111,7 +112,8 @@
               "RelativeToolTip": "svet-api\\Data\\AppDbContext.cs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:19:52.373Z"
+              "WhenOpened": "2025-04-30T17:19:52.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,19 +125,21 @@
               "RelativeToolTip": "svet-api\\Models\\Token.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:03:11.152Z"
+              "WhenOpened": "2025-04-30T17:03:11.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "svet-api\\Services\\AuthService.cs",
               "ToolTip": "C:\\Workspace\\Projetos\\SVET\\backend\\svet-api\\Services\\AuthService.cs",
               "RelativeToolTip": "svet-api\\Services\\AuthService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:25:35.659Z"
+              "WhenOpened": "2025-04-30T16:25:35.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +151,8 @@
               "RelativeToolTip": "svet-api\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:06:46.477Z"
+              "WhenOpened": "2025-04-30T15:06:46.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,7 +164,8 @@
               "RelativeToolTip": "svet-api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:31:20.451Z"
+              "WhenOpened": "2025-04-30T16:31:20.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -171,7 +177,8 @@
               "RelativeToolTip": "svet-api\\svet-api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-10T00:30:40.68Z"
+              "WhenOpened": "2025-03-10T00:30:40.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -183,7 +190,8 @@
               "RelativeToolTip": "svet-api\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T14:30:23.294Z"
+              "WhenOpened": "2025-04-30T14:30:23.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -195,7 +203,8 @@
               "RelativeToolTip": "svet-api\\DTOs\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:03:59.393Z"
+              "WhenOpened": "2025-04-30T15:03:59.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -207,7 +216,8 @@
               "RelativeToolTip": "svet-api\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:00:14.231Z"
+              "WhenOpened": "2025-04-30T15:00:14.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -219,7 +229,8 @@
               "RelativeToolTip": "svet-api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T14:52:51.207Z"
+              "WhenOpened": "2025-04-30T14:52:51.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -243,7 +254,8 @@
               "RelativeToolTip": "svet-api\\DTOs\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:04:32.271Z"
+              "WhenOpened": "2025-04-30T15:04:32.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -255,7 +267,8 @@
               "RelativeToolTip": "svet-api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T14:46:45.866Z"
+              "WhenOpened": "2025-04-30T14:46:45.866Z",
+              "EditorCaption": ""
             }
           ]
         }
