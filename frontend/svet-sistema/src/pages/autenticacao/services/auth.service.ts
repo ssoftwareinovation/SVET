@@ -17,6 +17,14 @@ export class AuthService {
     );
   }
 
+  cadastro(dadosCadastro: any) {
+    return this.http.post<any>(`${this.apiUrl}/cadastro`, { dadosCadastro}).pipe(
+      // tap(response => {
+      //   localStorage.setItem('token', response.token);
+      // })
+    );
+  }
+
   logout() {
     localStorage.removeItem('token');
   }

@@ -1,8 +1,6 @@
-
 # SVET
 
 Sistema Web para clínicas veterinárias
-
 
 ## Stack utilizada
 

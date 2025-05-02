@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-cadastro-usuario',
   imports: [],
   templateUrl: './cadastro-usuario.component.html',
-  styleUrl: './cadastro-usuario.component.css'
+  
 })
 export class CadastroUsuarioComponent {
 

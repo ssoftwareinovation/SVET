@@ -1,1 +1,87 @@
-<p>cadastro works!</p>
+<div class="min-h-screen flex flex-col md:flex-row font-sans">
+
+    <div class="bg-primary-white w-full md:w-[65%] flex items-center justify-center p-4">
+      <img src="assets/imgs/logo-banner.png" alt="Logo SVet" class="max-w-full max-h-[90vh] object-contain" />
+    </div>
+
+    <!-- Formulário de Login à Esquerda -->
+    <div class="w-full md:w-[35%] bg-primary-green flex items-center justify-center p-6">
+      <div class="auth-wrapper">
+        <div class="logo-wrapper">
+          <img src="assets/imgs/logo.png" alt="Ícone SVet" class="w-[40px] rounded-full" />
+          <p class="text-2xl lg:text-3xl text-white font-bold">Clínica Pet Feliz</p>
+        </div>
+
+        <div>
+          <p class="title-auth">Bem-vindo,<br />Faça seu cadastro.</p>
+        </div>
+
+        <!-- Formulário -->
+        <form>
+          <div class="form-space">
+
+            <div *ngIf="stepAtual == 1" id="step-1">
+              <app-input
+                label="Nome"
+                name="nome"
+                [(ngModel)]="nome"
+              ></app-input>
+              <app-input
+              label="Email"
+              name="email"
+              [(ngModel)]="email"
+            ></app-input>
+            <app-input
+            label="Celular/Telefone"
+            name="celular"
+            [(ngModel)]="celular"
+          ></app-input>
+            </div>
+
+            <div *ngIf="stepAtual == 2" id="step-2">
+              <app-input
+                label="Nome"
+                name="nome"
+                [(ngModel)]="nome"
+              ></app-input>
+              <app-input
+              label="Email"
+              name="email"
+              [(ngModel)]="email"
+            ></app-input>
+            <app-input
+            label="Celular/Telefone"
+            name="celular"
+            [(ngModel)]="celular"
+          ></app-input>
+            </div>
+
+            <div *ngIf="stepAtual == 3" id="step-3">
+              <app-input
+                label="Nome"
+                name="nome"
+                [(ngModel)]="nome"
+              ></app-input>
+              <app-input
+              label="Email"
+              name="email"
+              [(ngModel)]="email"
+            ></app-input>
+            <app-input
+            label="Celular/Telefone"
+            name="celular"
+            [(ngModel)]="celular"
+          ></app-input>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <button type="submit" (click)="cadastro()" class="button-base">Próximo</button>
+            <p class="text-primary-white text-sm text-center mt-2">
+              Já tem login? Entre aqui <a href="#" class="font-semibold underline">Cadastre aqui</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
