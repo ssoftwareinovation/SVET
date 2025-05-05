@@ -18,7 +18,7 @@ import { CommonModule } from '@angular/common';
     },
   ],
   template: `
-  <div class="mb-4">
+  <div class="mt-4">
     <label class="label-base">{{ label }}</label>
     <input
       [type]="type"
