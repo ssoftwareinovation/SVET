@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
-
+import { Component, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-side-bar',
-  imports: [],
+  standalone: true,
   templateUrl: './side-bar.component.html',
-  styleUrl: './side-bar.component.css'
+  imports: [CommonModule],
 })
 export class SideBarComponent {
+  isMobileOpen = signal(false);
 
+  toggleMobileMenu() {
+    this.isMobileOpen.update(v => !v);
+  }
 }

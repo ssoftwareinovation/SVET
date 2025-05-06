@@ -34,6 +34,10 @@
     @apply mb-6 text-xl lg:text-2xl text-primary-white font-bold;
   }
 
+  .title {
+    @apply mb-6 text-xl lg:text-2xl font-bold;
+  }
+
   .auth-wrapper {
     @apply w-full px-8 max-w-md;
   }
