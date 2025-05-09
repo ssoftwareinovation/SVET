@@ -11,6 +11,7 @@ import { LayoutBaseComponent } from '../../../shared/layout/layout-base/layout-b
   standalone: true,
   imports: [FormsModule, HttpClientModule, LayoutBaseComponent],
 })
+
 export class HomeComponent {
 
 }
