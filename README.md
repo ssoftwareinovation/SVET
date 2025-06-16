@@ -9,7 +9,7 @@ Sistema Web para clínicas veterinárias
 - Node (@última versão)
 
 **Back-end:** 
-- C# (.NET 8.0)
+- Express (Node.js)
 
 
 ## Roadmap
